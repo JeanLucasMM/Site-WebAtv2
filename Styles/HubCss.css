@@ -25,10 +25,15 @@ body {
 .image-container {
     display: flex;
     justify-content: center;
-    margin-top: 160px;
+    margin-top: 130px;
     gap: 50px;
 }
-.image-container img {
+span{
+    text-decoration: underline;
+    text-decoration-color: #900000;
+    text-decoration-style: solid;
+}
+.image-container img{
     width: 200px;
     margin: 0 10px;
 }
@@ -44,8 +49,7 @@ body {
 .CampaignLinks + span {
     display: block;
     text-align: center;
-    color: #e0e0e0; 
-    text-decoration: none;
+    color: #e0e0e0;
 }
 /*Footer*/
 footer {
